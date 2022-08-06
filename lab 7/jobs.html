@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaJam Coffee House Jobs</title>
+    <link rel="stylesheet" href="JavaJam.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="herojobs"></div>
+        <h2>
+            Jobs at JavaJam
+        </h2>
+        <p>
+            Want to work at JavaJam? Fill out the form below to start your application.<br>
+            Required fields are mark with an asterisk(*).
+        </p>
+        <form action="https://webdevbasics.net/scripts/javajam8.php" method="post">
+            <label for="myName">*Name</label>
+            <input type="text" id="myName" name="myName" value="" required><br>
+            <label for="myEmail">*E-mail</label>
+            <input type="email" id="myEmail" name="myEmail" value="" required><br>
+            <label for="myExperience">*Experience</label>
+            <textarea name="myExperience" id="myExperience" cols="20" rows="2" required></textarea>
+            <input type="submit" name="mySubmit" id="mySubmit" value="Apply Now">
+        </form>
+    </main>
+    <footer>
+        <br>
+             Copyright &copy; 2018 JavaJam Coffee House <br>
+             <a href="mailto:sokyee@mah.gmail.com">sokyee@mah.gmail.com</a>
+    </footer>
+    </div>
+</body>
+</html>
